@@ -1,0 +1,115 @@
+.case_front_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 492px 492px;
+    background-position: 0px 0px, 60px 4px;
+}
+.case_front_double{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 984px 492px;
+    background-position: 0px 0px, -432px 4px;
+    clip:rect(0 580px 500px 60px);
+}
+
+.digipak_front_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 570px 500px;
+    background-position: 0px 0px, 0px 0px;
+}
+
+.digipak_front_double{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 1170px 500px;
+    background-position: 0px 0px, -600px 0px;
+    clip: rect(0 570px 500px 0px);
+}
+
+.digipak_back_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 570px 500px;
+    background-position: 0px 0px, 0px 0px;
+}
+
+.digipak_back_double{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 1200px 500px;
+    background-position: 0px 0px, -15px 0px;
+    clip: rect(0 570px 500px 0px);
+}
+
+.case_inside_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 492px 492px, 570px 500px;
+    background-position: 60px 4px, 0px 0px;
+}
+.case_inside_double{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 984px 492px, 570px 500px;
+    background-position: 60px 4px, 0px 0px;
+    clip:rect(0 552px 500px 60px);
+}
+.digipak_inside_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 570px 500px;
+    background-position: 0px 0px, 0px 0px;
+}
+.digipak_inside_double{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 1170px 500px, 570px 500px;
+    background-position: 0px 0px, 0px 0px;
+}
+
+.case_inside_single_copy{
+    background-repeat: no-repeat;
+    background-size: 570px 500px;
+    background-position: 0px 0px;
+}
+
+.case_inlay_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 622px 496px;
+    background-position: 0px 0px, -26px 0px;
+}
+.case_inlay_single_black{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 622px 496px;
+    background-position: 0px 0px, -26px 0px;
+}
+
+.digipak_inlay_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 570px 500px;
+    background-position: 0px 0px, 0px 0px;
+}
+.digipak_inlay_double{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 1170px 500px;
+    background-position: 0px 0px, -600px 0px;
+ }
+
+.case_back_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 622px 500px;
+    background-position: 0px 0px, -26px 0px;
+}
+
+.case_left_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 622px 500px;
+    background-position: 0px 0px, -596px 0px;
+}
+
+.digipak_left_single{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 600px 500px;
+    background-position: 0px 0px, -570px 0px;
+}
+
+.digipak_left_double{
+    background-repeat: no-repeat,no-repeat;
+    background-size: 570px 500px, 1170px 500px;
+    background-position: 0px 0px, -575px 0px;
+}
+
+.digipak_cover_area{
+    margin-left: 34.5px;
+}

@@ -1,0 +1,126 @@
+.wowbook {
+	position : relative;
+	zoom: 1;
+}
+.wowbook-page	{
+	zoom: 1;
+}
+
+.wowbook-page-content {
+	position : absolute;
+	overflow : hidden;
+	zoom: 1;
+}
+
+.wowbook-left{}
+.wowbook-right{}
+.wowbook-disabled{}
+
+.wowbook-handle {
+	cursor   : pointer;
+	height   : 100%;
+	position : absolute;
+	top      : 0;
+	width    : 50px;
+	z-index  : 12000;
+	-webkit-transform: translate3d(0px, 0px, 10000px);
+}
+
+.wowbook-handle.wowbook-disabled {
+	display : none;
+}
+
+/* shadows */
+.wowbook-shadow-clipper {
+	position : absolute;
+	overflow : hidden;
+	z-index : 1999;
+	zoom: 1;
+}
+
+.wowbook-shadow-container {
+	display  : none;
+	position : absolute;
+	z-index  : 1999;
+	zoom: 1;
+}
+
+.wowbook-shadow-internal {
+	background : url(../images/shadow_internal_fold.png) repeat-y;
+	height     : 492px;
+	width      : 200px;
+	position   : absolute;
+	zoom: 1;
+}
+
+.wowbook-shadow-fold {
+	background : url(../images/shadow_fold.png) right top repeat-y;
+	height     : 492px;
+	width      : 100px;
+	position   : absolute;
+	zoom       : 1;
+}
+
+.wowbook-shadow-fold-flipped  {
+}
+.wowbook-fold-gradient {
+	background : url(../images/fold_gradient.png) right top repeat-y;
+	height : 492px;
+	width : 125px;
+	position : absolute;
+	top : 0;
+	zoom: 1;
+}
+
+.wowbook-fold-gradient-flipped {
+}
+
+.wowbook-fold-gradient-container {
+	position : absolute;
+	z-index  : 11001;
+}
+
+.wowbook-gutter-shadow {
+	height     : 100%;
+	width      : 40px;
+	position   : absolute;
+	top        : 0;
+}
+
+.wowbook-left .wowbook-gutter-shadow {
+	right      : 0;
+	width      : 70px;
+}
+
+.wowbook-right .wowbook-gutter-shadow {
+	left       : 0;
+}
+
+.wowbook-hard-page-shadow {
+	background : #888;
+	position   : absolute;
+	top        : 0;
+	z-index    : 1999;
+}
+
+.wowbook-book-shadow{
+	-moz-box-shadow: 0 0 14px #666;
+	-ms-box-shadow: 0 0 14px #666;
+	-webkit-box-shadow: 0 0 14px #666;
+	-o-box-shadow: 0 0 14px #666;
+	box-shadow: 0 0 14px #666;
+}
+
+.wowbook-page-holded {
+}
+.wowbook-page-holded object {
+}
+
+.wowbook-overlay {
+	left: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 100000;
+}
